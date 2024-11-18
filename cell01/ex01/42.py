@@ -1,1 +1,1 @@
-print("ink")
+print(42)
