@@ -6,5 +6,7 @@ text = sys.argv
 if len(text)<2:
     print("none")
 else:
-    if text[1]!=input("What was the parameters? "):
+    if text[1]==input("What was the parameters? "):
         print("Good job")
+    else:
+        print("Nope,sorry...")
