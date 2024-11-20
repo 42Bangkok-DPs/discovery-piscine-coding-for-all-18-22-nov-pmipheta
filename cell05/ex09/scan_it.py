@@ -9,6 +9,7 @@ else:
     first_String = text[1]
     second_String = text[2]
 
-    count = second_String.count(first_String)
+    ##count = second_String.count(first_String)
+    count = len(refind(first_String,second_String))
 
     print(count)
