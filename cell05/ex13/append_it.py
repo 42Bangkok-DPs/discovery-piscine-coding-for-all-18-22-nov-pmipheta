@@ -8,7 +8,9 @@ if len(text)<2 :
 else :
     for word in text[1:]:
         if not word.endswith("ism"):
-            word.append("i")
-            word.append("s")
-            word.append("m")
-            print("",join(word))
+            word_list = list(word)
+            word_list.append('i')
+            word_list.append('s')
+            word_list.append('m')
+            word= ''.join(word_list)
+            print(word)
