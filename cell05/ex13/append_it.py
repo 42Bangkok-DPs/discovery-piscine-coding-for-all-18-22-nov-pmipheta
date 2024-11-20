@@ -14,3 +14,6 @@ else :
             word_list.append('m')
             word= ''.join(word_list)
             print(word)
+            
+
+            
