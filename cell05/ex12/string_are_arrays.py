@@ -8,5 +8,5 @@ if len(text)<2:
 else:
     input_string = text[1]
 
-    if input_string('z')>0:
+    if input_string.count('z')>0:
         print('z'*input_string.count('z'))
