@@ -9,4 +9,4 @@ else:
     print(f"parameters: {len(text)-1}")
 
     for string in text[1:]:
-        print(f"{string}:{len(text)}")
+        print(f"{string}:{len(string)}")
