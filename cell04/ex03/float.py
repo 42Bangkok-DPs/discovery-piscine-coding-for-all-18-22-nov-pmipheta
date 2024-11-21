@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 number = input("Give me number: ")
 
 if '.' in  number :
