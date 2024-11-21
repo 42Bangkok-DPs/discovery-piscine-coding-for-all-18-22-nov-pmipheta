@@ -3,13 +3,13 @@
 import sys
 
 def greeting(name):
-    if not isinstance(name,str):
+    if not isinstance(name,str) or not name.isalpha():
         print("Error! It was not a name.")
     else:
-        print(f"Hello,{name}")
+        print(f"Hello, {name}")
 
 if len(sys.argv)>1:
     for args in sys.argv[1:]:
         greeting(args)
 else:
-    greeting()  
+    greeting("Guest")  
