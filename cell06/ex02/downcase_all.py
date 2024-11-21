@@ -2,7 +2,6 @@
 
 import sys
 
-
 def downcase_it(args):
     for text in args :
         print(text.lower())
