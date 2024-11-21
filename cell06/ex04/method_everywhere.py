@@ -6,7 +6,7 @@ def shrink(string):
     print(string[:8])
 
 def enlarge(string):
-    print(strng.ljust(8,'Z'))
+    print(string.ljust(8,'Z'))
 
 if len(sys.argv)<2:
     print("none")
